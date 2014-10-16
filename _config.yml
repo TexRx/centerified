@@ -1,14 +1,28 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Centerified
+email: askesian@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://centerified.com" # the base hostname & protocol for your site
+twitter_username: askesian
+github_username:  askesian
+github: {
+  "hostname": "centerified.com",
+  "pages_hostname": "askesian.github.io",
+  "api_url": "https://api.github.com",
+  "environment": "dotcom",
+  "owner_name": "askesian",
+  "owner_url": "https://github.com/askesian",
+  "repository_url": "https://github.com/askesian/centerified",
+  "repository_name": "centerified",
+  "is_user_page": false,
+  "is_project_page": true,
+  "show_downloads": true,
+  "url": "http://www.centerified.com"
+}
 
 # Build settings
 markdown: kramdown
