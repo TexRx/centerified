@@ -2,9 +2,7 @@
 title: Centerified
 email: askesian@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Experiments and musings of a FED
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://centerified.com" # the base hostname & protocol for your site
 twitter_username: askesian
@@ -24,5 +22,22 @@ github: {
   "url": "http://www.centerified.com"
 }
 
+# jekyll-assets config
+assets:
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/posts
+  css_compressor: sass
+  js_compressor:  uglifier
+  cache:          true
+
 # Build settings
 markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .gitignore
